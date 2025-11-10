@@ -1,0 +1,18 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-Wall",
+      "-std=c++17",
+      "-Isrc",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/home/alix/dev/glfwedu",
+    "file": "/home/alix/dev/glfwedu/src/main.cpp",
+    "output": "/home/alix/dev/glfwedu/build/main.o"
+  }
+]
