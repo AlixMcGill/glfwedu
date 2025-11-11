@@ -4,8 +4,24 @@
       "/usr/bin/g++",
       "-Wall",
       "-std=c++17",
-      "-Isrc",
-      "-Iinclude",
+      "-I/home/alix/dev/glfwedu/include",
+      "-I/home/alix/dev/glfwedu/src",
+      "-c",
+      "-o",
+      "build/glad.o",
+      "src/glad.c"
+    ],
+    "directory": "/home/alix/dev/glfwedu",
+    "file": "/home/alix/dev/glfwedu/src/glad.c",
+    "output": "/home/alix/dev/glfwedu/build/glad.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-Wall",
+      "-std=c++17",
+      "-I/home/alix/dev/glfwedu/include",
+      "-I/home/alix/dev/glfwedu/src",
       "-c",
       "-o",
       "build/main.o",
@@ -16,3 +32,4 @@
     "output": "/home/alix/dev/glfwedu/build/main.o"
   }
 ]
+
